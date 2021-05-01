@@ -235,9 +235,6 @@ def main_menu():
                     sys.exit()
                 if option_button.isOver(mpos):
                     options()
-            if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_BACKSLASH:
-                    game_over()
 
         # moves the background down making it seem like the title screen is leaving
         if move_b:
